@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "0.1.0",
-  "description": "A Todo App",
+  "description": "A Vue Typescript Electron Boilerplate",
   "main": "main/index.js",
   "license": "MIT",
   "scripts": {
