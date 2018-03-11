@@ -44,7 +44,7 @@ module.exports = merge(baseConfig, {
             extractors: [
                 {
                     extractor: TailwindExtractor,
-                    extensions: ["css", "js", "ts", "vue"]
+                    extensions: ["ts", "vue"]
                 }
             ]
         }),
