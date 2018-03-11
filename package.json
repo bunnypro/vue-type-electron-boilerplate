@@ -1,5 +1,5 @@
 {
-  "name": "todo-list",
+  "name": "@bunnypro/vue-type-electron",
   "description": "A Vue Typescript Electron Boilerplate",
   "main": "main/index.js",
   "license": "MIT",
