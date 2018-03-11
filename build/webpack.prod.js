@@ -46,6 +46,9 @@ module.exports = merge(baseConfig, {
                     extractor: TailwindExtractor,
                     extensions: ["ts", "vue"]
                 }
+            ],
+            whitelist: [
+                'html', 'body'
             ]
         }),
         new OptimizeCssPlugin({
