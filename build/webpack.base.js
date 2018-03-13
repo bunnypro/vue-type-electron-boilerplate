@@ -1,5 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const HtmlPlugin = require('html-webpack-plugin');
 const config = require('../config');
 
@@ -12,11 +13,12 @@ module.exports = {
     },
     resolve: {
         alias: {
-            'vue$': 'vue/dist/vue.esm.js',
-            '@Component': path.resolve(__dirname, '../src/Components/'),
-            '@Page': path.resolve(__dirname, '../src/Pages/')
+            'vue$': 'vue/dist/vue.esm.js'
         },
-        extensions: ['.js', '.ts', '.vue']
+        extensions: ['.js', '.ts', '.vue'],
+        plugins: [
+            new TsconfigPathsPlugin()
+        ]
     },
     module: {
         rules: [
