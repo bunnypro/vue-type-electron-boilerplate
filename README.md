@@ -1,8 +1,6 @@
-# Vue Typescript Electron Boilerplate
+# Vue Typescript Electron Starter Kit
 
-This template provide a boilerplate to getting started with Electron, Vuejs, and Typescript.
-
-Why not vue-cli template ? because vue-cli template will be replaced with @vue/cli (vue-cli@3.x.x) which is so much easier to getting started, but electron is not supported yet.
+This starter kit provide a boilerplate to getting started with Electron, Vuejs, and Typescript.
 
 ## Notice !
 
